@@ -37,7 +37,7 @@ const First = () => {
                     
                     <Text style={styles.title}>
                         {
-                            index === 0 ? 'Welcome to Platin Remarks!'
+                            index === 0 ? ''
                             : index === 1 ? 'Tagging Notes' 
                             : 'Unlock Secret Prizes!'
                         }
@@ -45,7 +45,7 @@ const First = () => {
 
                     <Text style={styles.text}>
                         {
-                            index === 0 ? 'Keep your thoughts, ideas, and tasks organized with ease. Create quick notes or add detailed ones with attachments. Let’s get started!'
+                            index === 0 ? ''
                             : index === 1 ? 'Organize your notes by adding tags like "Work," "Creative," or anything you prefer! You can also create your own custom tags to fit your needs.' 
                             : 'Take a break and play a fun mini-game to earn secret useful prizes. Just separate a star from a circle without damaging it—easy and rewarding!'
                         }
