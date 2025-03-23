@@ -16,7 +16,8 @@ const First = () => {
             navigation.navigate('HomeScreen')
         }
     };
-{/**<Image source={require('../assets/images/logo.png')} style={[styles.image, {width: 222, height: height * 0.212, marginTop: height * 0.03}]} /> */}
+    {/** */ }
+    // <View style={[styles.image, {width: 222, height: height * 0.212, marginTop: height * 0.03}]}></View>
     return (
         <ImageBackground source={require('../assets/loaders/Loader3.png')} style={{flex: 1}}>
             <View style={styles.container}>
@@ -24,7 +25,7 @@ const First = () => {
                 {
                     index === 0 ?
                     (
-                        <View style={[styles.image, {width: 222, height: height * 0.212, marginTop: height * 0.03}]}></View>
+                        <Image source={require('../assets/images/logo.png')} style={[styles.image, {width: 222, height: height * 0.212, marginTop: height * 0.03}]} />
                     ) :
                     index === 1 ? (
                         <Image source={require('../assets/images/buttons.png')} style={[styles.image, {width: 264, height: height * 0.11, marginTop: height * 0.12}]} />
@@ -32,7 +33,7 @@ const First = () => {
                         <Image source={require('../assets/images/game.png')} style={[styles.image, {width: 268, height: height * 0.268, marginTop: height * 0.02}]} />
                     )
                 }
-
+{/**Welcome to Platin Remarks!  Keep your thoughts, ideas, and tasks organized with ease. Create quick notes or add detailed ones with attachments. Let’s get started!*/}
                 <View style={styles.textContainer}>
                     
                     <Text style={styles.title}>
